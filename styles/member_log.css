@@ -1,0 +1,122 @@
+#member_wrap{background-color: #e4e7ea;width: 100%;min-width:1200px;height: 100%;position: absolute;font-family:Microsoft YaHei,SimHei,Helvetica,Arial,sans-serif}
+#member_wrap .member_log{
+	width: 530px;
+	background-color: #e9ebee;
+	border:1px solid #ccc;
+	position: absolute;
+	left: 50%;
+	margin-left: -283px;
+	top: 50%;
+	margin-top: -200px;
+	padding: 36px;
+	padding-top: 34px;
+	padding-bottom: 48px;
+	box-shadow: 5px 4px 3px #cdcdcd;
+	transition:all ease-in-out .3s;
+	-webkit-transition:all ease-in-out .3s;
+	-moz-transition:all ease-in-out .3s;	
+	-webkit-animation: shadowLight 3s infinite;
+	-o-animation: shadowLight 3s infinite;
+	animation: shadowLight 3s infinite;
+}
+@keyframes shadowLight{
+     from {
+       box-shadow: 5px 4px 3px #cdcdcd;
+     }         
+    50% {
+       box-shadow: 5px 4px 4px #b6b6b6;
+    }   
+   to {
+     box-shadow: 5px 4px 3px #cdcdcd;
+    
+    }
+  }
+  @-webkit-keyframes shadowLight{
+     from {
+       box-shadow: 5px 4px 3px #cdcdcd;
+       
+     }         
+    50% {
+       box-shadow: 5px 4px 4px #b6b6b6;
+    }   
+   to {
+     box-shadow: 5px 4px 3px #cdcdcd;
+    
+    }
+  }
+
+#member_wrap .member_log .Header{
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+.member_log .Header .Header_tit{
+	font-size: 20px;
+	color: #636e7c;
+	font-weight: bold;
+	float: left;
+}
+.member_log .Header .noAccount{
+	font-size: 12px;
+	color:#636e7c;
+	float: right;
+	padding-top: 10px;
+}
+.Header .noAccount a{
+	color:#03b09a;
+}
+.member_log .Body .member_Inputlist{
+	min-height: 74px;
+}
+.Body .member_Inputlist label{
+	/*vertical-align: middle;*/
+	color:#636e7c;
+	width: 85px;
+	display: inline-block;
+	font-size: 16px;
+}
+.Body .member_Inputlist .errorInfo{
+	color:#db524b;
+	padding-top: 7px;
+	padding-left: 92px;
+}
+.Body .member_Inputlist .uc_checkmarkerWrapper{
+	overflow: hidden;
+	margin-top: 10px;
+}
+.Body .member_Inputlist .rememberName{
+	font-size: 12px;
+	color:#636e7c;
+	margin-left: 90px;
+}
+.Body .member_Inputlist .forget{
+	font-size: 12px;
+	color:#636e7c;	
+	float: right;
+	margin-right: 84px;
+}
+#member_wrap .member_log .Footer{
+	margin-top: 50px;
+}
+#member_wrap .member_log .Footer a.login{
+	display: block;
+	text-align: center;
+	background: #03b09a;
+	font-size: 14px;
+	line-height: 40px;
+	margin-left: 90px;
+	color:#fff;
+}
+#member_wrap .member_log .Footer a.login:hover{
+	background: #00a08c;
+}
+
+
+
+
+
+
+
+
+
+
+
