@@ -4,8 +4,9 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>登录会员管理系统</title>
 	<link rel="stylesheet" type="text/css" href="styles/member_log.css">
-	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="styles/uc_public.css">
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
 </head>
 <body>
 	<div id="member_wrap">
@@ -27,9 +28,9 @@
 					<i class="uc_successIcon"></i>
 					<!-- <p class="errorInfo">此号码尚未注册</p> -->
 					<div class="uc_checkmarkerWrapper">
-						<label for="rememberName" class="rememberName"><span class="uc_checkmarker_true"></span>记住用户名</label>
-						<input type="checkbox" id="rememberName" style="">
-						<label for="" class="forget">忘记密码？</label>
+						<label for="rememberName" class="rememberName" id="rememberBtn"><span class="uc_checkmarker_true"></span>记住用户名</label>
+						<input type="checkbox" id="rememberName" checked style="display:none;">
+						<a href="javascript:void(0)" class="forget">忘记密码？</a>
 					</div>
 				</div>
 			</div>
@@ -39,6 +40,6 @@
 		</div>
 	</div>
 	<script type="text/javascript" src="http://www.98.cn/templets/style/js/jquery-1.72.js"></script>
-	<script type="text/javascript" src="js/member_log.js"></script>
+	<script type="text/javascript" src="scripts/member_log.js"></script>
 </body>
 </html>
