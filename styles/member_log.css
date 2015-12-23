@@ -21,26 +21,26 @@
 }
 @keyframes shadowLight{
      from {
-       box-shadow: 5px 4px 3px #cdcdcd;
+       box-shadow: 5px 4px 3px #d2d2d2;
      }         
     50% {
        box-shadow: 5px 4px 4px #b6b6b6;
     }   
    to {
-     box-shadow: 5px 4px 3px #cdcdcd;
+     box-shadow: 5px 4px 3px #d2d2d2;
     
     }
   }
   @-webkit-keyframes shadowLight{
      from {
-       box-shadow: 5px 4px 3px #cdcdcd;
+       box-shadow: 5px 4px 3px #d2d2d2;
        
      }         
     50% {
        box-shadow: 5px 4px 4px #b6b6b6;
     }   
    to {
-     box-shadow: 5px 4px 3px #cdcdcd;
+     box-shadow: 5px 4px 3px #d2d2d2;
     
     }
   }
