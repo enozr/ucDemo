@@ -67,6 +67,9 @@
 .member_log .Body .member_Inputlist{
 	min-height: 74px;
 }
+.member_log .Body .minH44{
+	min-height: 44px;
+}
 .Body .member_Inputlist label{
 	/*vertical-align: middle;*/
 	color:#636e7c;
@@ -80,16 +83,16 @@
 	padding-left: 92px;
 	font-size: 12px;
 }
-.Body .member_Inputlist .uc_checkmarkerWrapper{
+.Body .uc_checkmarkerWrapper{
 	overflow: hidden;
 	margin-top: 10px;
 }
-.Body .member_Inputlist .rememberName{
+.Body .rememberName{
 	font-size: 12px;
 	color:#636e7c;
 	margin-left: 90px;
 }
-.Body .member_Inputlist .forget{
+.Body .forget{
 	font-size: 12px;
 	color:#636e7c;	
 	float: right;
