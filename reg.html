@@ -4,18 +4,78 @@
 	<meta charset="UTF-8">
 	<title>注册</title>
 	
+	<link rel="stylesheet" type="text/css" href="styles/member_log.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles/uc_public.css">
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
 	<style>
-		#regMember {width: 564px; margin: 0 auto; background-color: #e4e7ea;height: 200px;} 
-
+		/*#regMember {width: 564px; margin: 0 auto; background-color: #e4e7ea;height: 200px;} */
+		.pwdStrength{width: 45px; height: 8px; display: inline-block; margin-right: 1px;}
+		.uc-green{background-color: #1CAF9A;}
+		.uc-grey{background-color: #d9d9d9;}
+		.pwdStrengthWrapper{margin-left: 90px;}
+		a{color: #1CAF9A;}
 	</style>
 </head>
 <body>
 	<div id="regMember">
-		<form action="#" id="regForm">
+		<!-- <form action="#" id="regForm">
 			手机号
 			<input type="text" id="tel" name="tel" max="13">
-		</form>
+		</form> -->
 	</div>
+
+	<div id="member_wrap">
+		<div class="member_log">
+			<div class="Header">
+				<div class="Header_tit">新用户注册</div>
+				<div class="noAccount">已有账号？请立即 <a href="javascript:void(0)">登录</a></div>
+			</div>
+			<div class="Body">
+				<div class="member_Inputlist">
+					<label for="">手机号</label>
+					<input id="tel" name="tel" type="text" maxlength="12" placeholder="请输入手机号" class="uc_input w320 uc_account">	
+					<i class="uc_errorIcon"></i>
+					<p class="errorInfo">此号码已注册</p>			
+				</div>
+				<div class="member_Inputlist">
+					<label for="">设置密码</label>
+					<input id="pwd" name="pwd" type="password" placeholder="请输入密码" maxlength="12" class="uc_input w320 uc_password">	
+					<i class="uc_successIcon"></i>
+					<div class="pwdStrengthWrapper">
+						<div id="pwdStrength1" class="pwdStrength uc-grey"></div>
+						<div id="pwdStrength2" class="pwdStrength uc-grey"></div>
+						<div id="pwdStrength3" class="pwdStrength uc-grey"></div>
+					</div>
+				</div>
+				<div class="member_Inputlist">
+					<label for="">确认密码</label>
+					<input id="pwd2" name="pwd2" type="password" placeholder="请输入密码" maxlength="12" class="uc_input w320 uc_password">	
+					<i class="uc_successIcon"></i>
+					<p class="errorInfo">此号码尚未注册</p>
+				</div>
+				<div class="member_Inputlist">
+					<label for="">短信验证</label>
+					<input id="smsCode" name="smsCode" type="text" placeholder="请输入短信验证码" maxlength="12" class="uc_input w180 uc_password">
+					<input id="smsBtn" name="smsBtn" type="button" class="w140 h40" value="获取验证码">
+					<i class="uc_successIcon"></i>
+					<p class="errorInfo">此号码尚未注册</p>
+				</div>
+				<div class="uc_checkmarkerWrapper">
+					<label for="rememberName" class="rememberName" id="rememberBtn"><span class="uc_checkmarker_true"></span>已阅读并同意
+						<a href="javascript:void(0)">《易煤网用户注册协议》</a>
+					</label>
+					<!-- <input type="checkbox" id="rememberName" checked style="display:none;">
+					<a href="javascript:void(0)" class="forget">忘记密码？</a> -->
+				</div>
+			</div>
+			<div class="Footer">
+				<a href="javasrcipt:void(0)" id="regSubmit" class="uc_input login w320">注册</a>
+			</div>
+		</div>
+	</div>
+
+
 </body>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="scripts/reg.js"></script>

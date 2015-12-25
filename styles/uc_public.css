@@ -1,7 +1,18 @@
 /*public start*/
+.w140{
+	width: 140px;
+}
+.w180{
+	width: 180px;
+}
 .w320{
 	width: 320px;
 }
+
+.h40{
+	height: 40;
+}
+
 .uc_input{
 	height:40px;
 	border-radius: 2px;
