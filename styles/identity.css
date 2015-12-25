@@ -1,0 +1,114 @@
+#identity{background: #e4e7ea;position: absolute;width: 100%;height: 100%;}
+/*基于bootstrap样式*/
+#identity .cl_navbarBgColor{
+	background: #fff;
+	height: 50px;
+}
+#identity .bracketsStyle{
+	color:#1caf9a;
+}
+#identity .cl_navbarWid li{
+	border-left:1px solid #eee;	
+}
+#identity .cl_navbarWid li a{
+	color:#636e7b;
+	/*min-width: 124px;*/
+	text-align: center;
+}
+#identity .cl_navbarWid .cl_userPic{
+	position: relative;
+	float: left;
+	top: -3px;
+	padding: 0px 10px;
+}
+#identity .cl_navbarWid .cl_userPic img{
+	width: 27px;
+	height: 27px;
+}
+#identity .cl_navbarWid span{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+#identity .cl_navbarWid span.cl_qqserverIcon{
+	background: url('../images/member_Icons.png') no-repeat 0px -142px;
+}
+#identity .cl_navbarWid span.cl_telIcon{
+	background: url('../images/member_Icons.png') no-repeat -24px -142px;
+}
+#identity .cl_navbarWid span.cl_quitIcon{
+	background: url('../images/member_Icons.png') no-repeat -48px -142px;
+}
+#identity .cl_navbarWid i{
+	color:#d9534f;
+	font-style: normal;
+	font-weight: bold;
+}
+#identity .cl_sidebarBg{
+	background: #1d2939;
+}
+#identity .cl_sidebarTit{
+	color: #8f939e;
+	line-height: 35px;
+	border-radius: 5px;
+}
+#identity .cl_sidebarTit:hover{
+	background-color: #1caf9a;
+	color: #fff;
+}
+#identity .cl_sidebarTit span{
+	display: inline-block;
+	width: 21px;
+	height: 17px;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	margin: 0px 10px;
+}
+#identity .cl_sidebarTit span.cl_identityIcon{
+	background: url('../images/member_Icons.png') no-repeat 0px -51px;
+}
+#identity .cl_sidebarTit span.cl_createIcon{
+	background: url('../images/member_Icons.png') no-repeat -22px -51px;
+}
+#identity .cl_sidebarTit span.cl_usercenterIcon{
+	background: url('../images/member_Icons.png') no-repeat -45px -51px;
+}
+#identity .cl_sidebarTit span.cl_orderIcon{
+	background: url('../images/member_Icons.png') no-repeat -66px -51px;
+}
+#identity .cl_sidebarTit span.cl_fundsIcon{
+	background: url('../images/member_Icons.png') no-repeat -89px -51px;
+}
+#identity .cl_sidebarTit:hover span.cl_identityIcon{
+	background: url('../images/member_Icons.png') no-repeat 0px -70px;
+}
+#identity .cl_sidebarTit:hover span.cl_createIcon{
+	background: url('../images/member_Icons.png') no-repeat -22px -71px;
+}
+#identity .cl_sidebarTit:hover span.cl_usercenterIcon{
+	background: url('../images/member_Icons.png') no-repeat -45px -71px;
+}
+#identity .cl_sidebarTit:hover span.cl_orderIcon{
+	background: url('../images/member_Icons.png') no-repeat -66px -71px;
+}
+#identity .cl_sidebarTit:hover span.cl_fundsIcon{
+	background: url('../images/member_Icons.png') no-repeat -89px -71px;
+}
+#identity .cl_sidebarTit i{
+	font-style: normal;
+	float: right;
+	font-weight: bold;
+	padding-right: 10px;
+}
+#identity .cl_sidebarTit ul{
+	font-size: 12px;
+}
+#identity .cl_sidebarTit ul li i{
+	display: inline-block;
+	background: url('images/member_Icons.png') no-repeat ;
+}
+
+
+
