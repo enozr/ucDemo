@@ -20,7 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.1.4",
+    "jquery": "1.12-stable",
     "normalize-css": "normalize.css#~3.0.3",
     "bootstrap": "~3.3.6"
   }
