@@ -23,5 +23,18 @@ var memberLog={
 		 });
 	}
 };
+var identity={
+	sidebar : function(){
+		$('.cl_sidebarTit').on('click',function(){
+			$('.cl_sidebarTit').children("i").text("+");
+			$(this).children("i").text("-");
+			$('.cl_sidebarMenu').stop(true,true).slideUp();
+			$('.cl_sidebarMenuList').delay(500).removeClass("cl_sidebarOn")
+			$(this).next('.cl_sidebarMenu').stop(true,true).slideDown();
+			$(this).parent('.cl_sidebarMenuList').addClass("cl_sidebarOn")
+		})
+	}
+}
 memberLog.rememberName();
 memberLog.moblieCheck();
+identity.sidebar();

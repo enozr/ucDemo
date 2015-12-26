@@ -4,6 +4,10 @@
 	background: #fff;
 	height: 50px;
 }
+#identity .cl_fadeinleft{
+	-webkit-animation: fadeinleft 1.5s;
+	animation: fadeinleft 1.5s;	
+}
 #identity .bracketsStyle{
 	color:#1caf9a;
 }
@@ -53,7 +57,12 @@
 	line-height: 35px;
 	border-radius: 5px;
 }
-#identity .cl_sidebarTit:hover{
+#identity .cl_sidebarMenuList{
+	cursor: pointer;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+#identity .cl_sidebarMenuList:hover .cl_sidebarTit{
 	background-color: #1caf9a;
 	color: #fff;
 }
@@ -65,6 +74,35 @@
 	position: relative;
 	top: -2px;
 	margin: 0px 10px;
+	-webkit-animation: fadeinleft .9s;
+	animation: fadeinleft .9s;
+}
+@-webkit-keyframes fadeinleft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeinleft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
 }
 #identity .cl_sidebarTit span.cl_identityIcon{
 	background: url('../images/member_Icons.png') no-repeat 0px -51px;
@@ -102,13 +140,53 @@
 	font-weight: bold;
 	padding-right: 10px;
 }
-#identity .cl_sidebarTit ul{
-	font-size: 12px;
+#identity .cl_sidebarMenu ul li{
+	margin: 5px 0px;
+	cursor: pointer;
 }
-#identity .cl_sidebarTit ul li i{
+#identity .cl_sidebarMenu ul li i{
+	background: url('../images/member_Icons.png') no-repeat -114px -55px;
 	display: inline-block;
-	background: url('images/member_Icons.png') no-repeat ;
+	width: 6px;
+	height: 8px;
+	margin-right: 10px;
 }
+#identity .cl_sidebarMenu ul li a{
+	font-size: 12px;
+	color:#8f939e;
+}
+#identity .cl_sidebarMenu ul li a:hover{
+	text-decoration: none;
+	color:#1caf9a;
+}
+#identity .cl_sidebarOn .cl_sidebarTit span.cl_identityIcon{
+	background: url('../images/member_Icons.png') no-repeat 0px -70px;
+}
+#identity .cl_sidebarOn .cl_sidebarTit span.cl_createIcon{
+	background: url('../images/member_Icons.png') no-repeat -22px -71px;
+}
+#identity .cl_sidebarOn .cl_sidebarTit span.cl_usercenterIcon{
+	background: url('../images/member_Icons.png') no-repeat -45px -71px;
+}
+#identity .cl_sidebarOn .cl_sidebarTit span.cl_orderIcon{
+	background: url('../images/member_Icons.png') no-repeat -66px -71px;
+}
+#identity .cl_sidebarOn .cl_sidebarTit span.cl_fundsIcon{
+	background: url('../images/member_Icons.png') no-repeat -89px -71px;
+}
+#identity .cl_sidebarOn .cl_sidebarTit{
+	color:#fff;
+	background-color: #1caf9a;
+}
+#identity .cl_sidebarMenu{
+	display: none;
+}
+#identity .cl_sidebarOn .cl_sidebarMenu{
+	display: block;
+}
+
+
+
 
 
 
