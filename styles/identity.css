@@ -184,9 +184,109 @@
 #identity .cl_sidebarOn .cl_sidebarMenu{
 	display: block;
 }
-
-
-
+#identity .cl_identityMain{
+	width: 100%;
+}
+#identity .cl_identityMainHeader{
+	height: 73px;
+	background: #f7f7f7;
+	border-bottom: 1px solid #d3d7db;
+}
+#identity .cl_pd0{
+	padding:0;
+}
+#identity .cl_identityTit{
+	float: left;
+	font-size: 24px;
+	color:#1d2939;
+	margin-top: 18px;
+}
+#identity .cl_identityTit .cl_identityIcon{
+	width: 42px;
+	height: 42px;
+	margin: 0px 15px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url('../images/member_Icons.png') no-repeat 0px -93px;
+	position: relative;
+	top: -3px;
+}
+#identity .cl_identityMainCon{
+	margin:20px;
+	background: #fff;
+	min-height: 100px;
+	border-radius: 2px;
+	box-shadow: 4px 3px 2px #cdcdcd;
+}
+#identity .cl_identityMainCon .cl_identityMainConTit{
+	font-size: 18px;
+	color:#111;
+	height: 64px;
+	border-bottom: 1px solid #e7e7e7;
+	overflow: hidden;
+	padding-left: 36px;
+	line-height: 64px;
+}
+#identity .cl_identityMainCon .cl_identityMainInner{
+	width: 810px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+#identity .cl_identityMainInner ul li{
+	margin-bottom: 35px;
+	font-size: 14px;
+}
+#identity .cl_identityMainInner li label{
+	color:#4a535e;
+	width: 70px;
+	text-align: right;
+	margin-right: 20px;
+}
+#identity .cl_identityMainInner li span{
+	color:#d9534f;
+	margin-left: 5px;
+}
+#identity .cl_identityMainInner li .cl_identityInput{
+	width: 663px;
+	height: 43px;
+	line-height: 43px;
+	outline: none;
+	border-radius: 2px;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding-left: 5px;
+}
+#identity .cl_identityBtnWrap{
+	padding-left: 90px;
+	margin-top: 130px;
+}
+#identity .cl_identityBtnWrap .cl_identityBtnInfo{
+	font-size: 14px;
+	color:#666;
+	margin-bottom: 10px;
+}
+#identity .cl_identityBtnWrap .cl_identityBtnInfo span{
+	width: 15px;
+	height: 22px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url('../images/member_Icons.png') no-repeat -2px -163px;
+	margin-right: 10px;
+	position: relative;
+	top: -2px;
+}
+#identity .cl_identityBtnWrap .cl_identityBtn{
+	width: 668px;
+	height: 43px;
+	line-height: 40px;
+	outline: none;
+	border-radius: 2px;
+	background: #1caf9a;
+	text-align: center;
+	color:#fff;
+	outline: none;
+	border: none;
+}
 
 
 
