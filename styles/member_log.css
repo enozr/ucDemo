@@ -114,13 +114,10 @@
 	background: #00a08c;
 }
 
-
-
-
-
-
-
-
-
-
-
+#member_wrap .member_reg{margin-top: -350px;}
+#member_wrap .member_reg .pwdStrength{width: 45px; height: 8px; display: inline-block; margin-right: 1px;}
+#member_wrap .member_reg .pwdStrengthWrapper{margin-left: 90px;}
+#member_wrap .member_reg #smsBtn {color: #fff;}
+#member_wrap .member_reg #smsBtn:hover{background-color: #cc2e25;}
+#member_wrap .member_reg .rightImg{width: 140px;height: 40px; line-height: 40px;display: inline-block; text-align: center; margin-left: 4px;}
+#member_wrap .member_reg .rightImg img{vertical-align: top;}

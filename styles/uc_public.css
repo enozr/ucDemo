@@ -2,11 +2,12 @@
 .inline{display: inline;}
 .inBlock{display: inline-block;}
 .block{display: block;}
+
 .w140{
 	width: 140px;
 }
-.w180{
-	width: 180px;
+.w170{
+	width: 170px;
 }
 .w320{
 	width: 320px;
@@ -17,6 +18,8 @@
 .uc-green{background-color: #1CAF9A;}
 .uc-grey{background-color: #d9d9d9;}
 .uc_red{background-color: #db524b;}
+
+.uc_fGreen{color: #1CAF9A;}
 
 .uc_input{
 	height:40px;
