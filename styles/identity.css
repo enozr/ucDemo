@@ -140,6 +140,9 @@
 	font-weight: bold;
 	padding-right: 10px;
 }
+#identity .cl_sidebarMenu ul{
+	padding-left: 40px;
+}
 #identity .cl_sidebarMenu ul li{
 	margin: 5px 0px;
 	cursor: pointer;
