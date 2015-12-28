@@ -3,7 +3,9 @@
 	width: 530px;
 	background-color: #e9ebee;
 	border:1px solid #ccc;
-	position: absolute;
+	/*position: absolute;*/
+	position: fixed;
+	overflow: scroll;
 	left: 50%;
 	margin-left: -283px;
 	top: 50%;
@@ -114,10 +116,16 @@
 	background: #00a08c;
 }
 
-#member_wrap .member_reg{margin-top: -350px;}
+/*#member_wrap .member_reg{margin-top: -350px;}*/
+#member_wrap .member_reg{margin-top: -320px; margin-bottom: 50px;}
 #member_wrap .member_reg .pwdStrength{width: 45px; height: 8px; display: inline-block; margin-right: 1px;}
 #member_wrap .member_reg .pwdStrengthWrapper{margin-left: 90px;}
 #member_wrap .member_reg #smsBtn {color: #fff;}
 #member_wrap .member_reg #smsBtn:hover{background-color: #cc2e25;}
 #member_wrap .member_reg .rightImg{width: 140px;height: 40px; line-height: 40px;display: inline-block; text-align: center; margin-left: 4px;}
 #member_wrap .member_reg .rightImg img{vertical-align: top;}
+#member_wrap .member_reg .agree{
+	font-size: 12px;
+	color:#636e7c;
+	margin-left: 90px;
+}
